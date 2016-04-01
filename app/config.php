@@ -12,5 +12,7 @@
 		'password' => '',
 		'dbname' => 'sistematt'
 	));
+        
+      $configs->env->development->auth->setURLs('/sistema/home','/sistema/Login');
 
 	return $configs;
