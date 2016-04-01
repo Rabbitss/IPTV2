@@ -1,4 +1,4 @@
-# HXPHP Framework
+# TravelTours
 
 O HXPHP é um mini-framework PHP.
 
@@ -7,7 +7,7 @@ O HXPHP é um mini-framework PHP.
 ### Qual é a diferença do HXPHP em comparação aos demais frameworks PHP?
 --------------------------------------------------------------------
 
-O HXPHP Framework não foi desenvolvido para ser o **framework perfeito**, nem o **framework do código lindo** e sim, na verdade, ser o **primeiro framework** dos programadores PHP. Trata-se de uma ferramenta simples que tem o objetivo nobre de introduzir programadores iniciantes e/ou intermediários ao universo dos frameworks com um primeiro contato fácil e produtivo, visto que em poucas horas o programador já é capaz de criar diversas soluções, fator este mais do que estimulante.
+O TravelTours não foi desenvolvido para ser o **framework perfeito**, nem o **framework do código lindo** e sim, na verdade, ser o **primeiro framework** dos programadores PHP. Trata-se de uma ferramenta simples que tem o objetivo nobre de introduzir programadores iniciantes e/ou intermediários ao universo dos frameworks com um primeiro contato fácil e produtivo, visto que em poucas horas o programador já é capaz de criar diversas soluções, fator este mais do que estimulante.
 
 Lembre-se também que antes de estudar um framework é mais do que recomendado, diria imprescindível, o domínio da linguagem PHP em si. Afinal, independente do framework, você deve ser um programador PHP.
 

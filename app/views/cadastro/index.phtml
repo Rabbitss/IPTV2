@@ -3,39 +3,39 @@
             <div class="panel panel-custom">
                 <div class="panel-heading">
                     <a id="logo" href="<?php echo BASE; ?>">
-                        <img class="img-responsive" src="<?php echo IMG; ?>hxphp-logo.png" alt="">
+                        <img class="img-responsive" src="<?php echo IMG; ?>logo.png" alt="">
                     </a>
                 </div>
                 <div class="panel-body">
                     <?php echo (isset($this->alert) ? $this->alert : ''); ?>
                     <form action="<?php echo BASE; ?>cadastro/cadastrar/" class="form-horizontal" method="post">
-                      <div class="form-group">
-                        <label for="name" class="col-sm-3 control-label">Nome:</label>
+                      <div class="form-group" style="font-size:18px" >
+                        <label for="name" class="col-sm-3 control-label" >Nome:</label>
                         <div class="col-sm-8">
-                          <input required type="text" name="name" class="form-control" id="name" placeholder="hxtutors" value="<?php echo $this->request->post('name') ?>">
+                          <input required type="text" name="name" class="form-control" id="name" placeholder="Nome Completo" value="">
                         </div>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group" style="font-size:18px">
                         <label for="email" class="col-sm-3 control-label">E-mail:</label>
                         <div class="col-sm-8">
-                          <input required type="email" name="email" class="form-control" id="email" placeholder="seuemail@site.com.br" value="<?php echo $this->request->post('email') ?>">
+                          <input required type="email" name="email" class="form-control" id="email" placeholder="seuemail@site.com.br" value="">
                         </div>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group" style="font-size:18px">
                         <label for="username" class="col-sm-3 control-label">Usuário:</label>
                         <div class="col-sm-8">
-                          <input required type="text" name="username" class="form-control" id="username" placeholder="hxtutors" value="<?php echo $this->request->post('username') ?>">
+                          <input required type="text" name="username" class="form-control" id="username" placeholder="Nome de Usuário" value="">
                         </div>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group" style="font-size:18px">
                         <label for="password" class="col-sm-3 control-label">Senha:</label>
                         <div class="col-sm-8">
                           <input required type="password" name="password" class="form-control" id="password" placeholder="Sua senha">
                         </div>
                       </div>
-                      <div class="form-group">
-                        <div class="col-sm-offset-3 col-sm-10">
-                          <button type="submit" class="btn btn-success">Cadastrar</button>
+                      <div class="form-group" >
+                        <div class="col-sm-offset-3 col-sm-10" >
+                          <button type="submit" class="btn btn-success" style="font-size:18px">Cadastrar</button>
                         </div>
                       </div>
                     </form>

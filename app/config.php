@@ -10,7 +10,7 @@
 		'host' => 'localhost',
 		'user' => 'root',
 		'password' => '',
-		'dbname' => 'sistemahx'
+		'dbname' => 'sistematt'
 	));
 
 	return $configs;
