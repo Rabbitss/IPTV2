@@ -12,6 +12,7 @@ class Mail
 		$this->setFrom(array(
 			'from' => 'TravelTours',
 			'from_mail' => 'no-reply@hxphp.com.br'
+                        
 		));
 		return $this;
 	}
